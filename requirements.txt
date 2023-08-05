@@ -1,0 +1,5 @@
+requests
+selenium
+pyquery
+tox
+tox-docker

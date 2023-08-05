@@ -19,7 +19,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        python -m pip install tox
+        python -m pip install -r requirements.txt
         # Un-gzip grist doc
         cat grist_persist/docs/2Gs4vAitoJH6U3yFtstVwT.grist.gz | gzip -d > grist_persist/docs/2Gs4vAitoJH6U3yFtstVwT.grist
     # - name: Copy Grist persist dir
