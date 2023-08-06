@@ -3,3 +3,4 @@ selenium
 pyquery
 tox
 tox-docker
+grist-api
